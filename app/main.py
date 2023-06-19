@@ -9,9 +9,6 @@ app = FastAPI(
     title="Textstrip Server",
     description="This is the Server of the Textstrip Project",
     version="0.2.0",
-    docs_url="/api/docs",
-    redoc_url="/api/redoc",
-    openapi_url="/api/openapi.json",
     debug=True,
     include_in_schema=True
 )
