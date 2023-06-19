@@ -18,3 +18,4 @@ dependencies:
       - websockets
       - numpy
       - openai-whisper
+      - python-multipart
