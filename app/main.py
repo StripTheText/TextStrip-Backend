@@ -3,7 +3,6 @@ from fastapi import FastAPI
 
 # Import of internal libraries / Routers
 from app.api.api_router import api_router
-from app.services.websocket import websocket_route
 
 app = FastAPI(
     title="Textstrip Server",
@@ -25,4 +24,4 @@ async def shutdown_event():
 
 
 app.include_router(api_router, prefix="/api")
-app.include_router(websocket_route)
+
