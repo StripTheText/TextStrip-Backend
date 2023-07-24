@@ -11,6 +11,9 @@ COPY ./requirements.txt /app/requirements.txt
 # Installieren Sie die benötigten Python-Pakete
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
+# Herunter Laden des Huggingface Modells
+RUN python -c "from transformers import AutoTokenizer, AutoModelForSeq2SeqLM; AutoTokenizer.from_pretrained('tkister/autotrain-news-paper-75687140071');AutoModelForSeq2SeqLM.from_pretrained('tkister/autotrain-news-paper-75687140071')"
+
 # Kopieren Sie den Projektcode in den Container
 COPY . /app
 

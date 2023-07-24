@@ -59,9 +59,8 @@ use it can be found on the Pages - Handbook page once the app is running.
 ### Installing the Project Dependencies
 
 Before you can run the project, the project's dependencies must first be installed. There are the following options for
-this: **[pip](https://pip.pypa.io/en/stable/)**, **[conda](https://docs.conda.io/en/latest/)** and *
-*[venv](https://docs.python.org/3/library/venv.html)**. All three options are described below, but require an installed
-version of Python (This project was developed with Python 3.11.*). If there is no suitable version of Python installed
+this: **[pip](https://pip.pypa.io/en/stable/)**, **[conda](https://docs.conda.io/en/latest/)** and **[venv](https://docs.python.org/3/library/venv.html)**. All three options are described below, but require an installed
+version of Python (This project was developed with Python 3.11.*). If there is no suitable version of Python installed,
 yet, it can be downloaded from the official **[Python website](https://www.python.org/downloads/)**.
 
 **Note:** In addition to the project's dependencies, there are other dependencies defined by the operating system.
@@ -180,10 +179,10 @@ uvicorn main:app --host localhost --port 8080 --reload
 ```
 
 The project is now running and can be accessed in the browser at `http://localhost:8080`.
-For Information on how to use the project, refer the Information provided on the web-page.
+For Information on how to use the project, refer to the Information provided on the web-page.
 
 ---
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License—see the [LICENSE](LICENSE) file for details.
