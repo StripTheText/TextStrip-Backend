@@ -1,0 +1,8 @@
+fastapi
+numpy
+pandas
+rouge
+tensorflow
+torch
+transformers
+uvicorn
