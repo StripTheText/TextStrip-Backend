@@ -1,4 +1,4 @@
-# Strip-The-Text - Frontend
+# Strip-The-Text - Backend
 
 ---
 
